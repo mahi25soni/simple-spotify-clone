@@ -1,0 +1,92 @@
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    height: 65px;
+    background-color: rgb(1, 1, 1);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 6px;
+
+}
+.brand img{
+    height: 65px;
+}
+.container{
+    min-height: 78vh;
+    width: 35%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 10px auto;
+    display: flex;
+}
+#songListContainer{
+    width: 100%;
+}
+.songItem{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    margin: 8px 7px;
+    font-weight: bolder;
+    font-size: large;
+    border: 3px solid black;
+
+}
+
+.songItem img{
+    height: 40px;
+    max-width: 50px;
+}
+.pause-btn i{
+    cursor: pointer;
+    color: black;
+}
+
+.bottom{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+i{
+    color: rgb(255, 255, 255);
+    margin: 10px 4px;
+    cursor: pointer;   
+}
+#progressbar{
+    width: 70%;
+    cursor: pointer;   
+}
+#song-gif{
+    position:absolute; 
+    left: 15%;
+    
+}
+#song-gif img{
+    opacity: 0;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
